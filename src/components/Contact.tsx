@@ -87,7 +87,7 @@ const Contact = () => {
                     id="name"
                     {...register('name', { required: 'Name is required' })}
                     className={`w-full px-4 py-3 rounded-xl border ${errors.name ? 'border-red-500' : 'border-gray-200'} focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all`}
-                    placeholder="John Doe"
+                    placeholder="Juan Dela Cruz"
                   />
                   {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name.message}</p>}
                 </div>
@@ -104,7 +104,7 @@ const Contact = () => {
                       }
                     })}
                     className={`w-full px-4 py-3 rounded-xl border ${errors.email ? 'border-red-500' : 'border-gray-200'} focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all`}
-                    placeholder="john@example.com"
+                    placeholder="juandelacruz@email.com"
                   />
                   {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email.message}</p>}
                 </div>

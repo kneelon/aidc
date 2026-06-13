@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "AIDC Electrical Services and Supply | Philippines",
-  description: "AIDC Electrical Services and Supply providing professional electrical services for subdivisions and electric corporations in the Philippines.",
+  description: "AIDC Electrical Services and Supply providing professional electrical services for residential, commercial, subdivisions and electric corporations in the Philippines.",
   icons: {
     icon: '/assets/logo.png',
   }

@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="font-bold text-lg">AIDC Electrical</span>
             </div>
             <p className="text-gray-400">
-              Providing professional electrical services and high-quality supplies for subdivisions and electric corporations across the Philippines.
+              Providing professional electrical services and high-quality supplies for residential, commercial, subdivisions and electric corporations across the Philippines.
             </p>
           </div>
 
