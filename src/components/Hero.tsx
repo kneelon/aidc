@@ -5,9 +5,10 @@ const Hero = () => {
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 z-0 bg-cover bg-no-repeat"
         style={{
           backgroundImage: 'url("/assets/Office.webp")',
+          backgroundPosition: 'center 30%',
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
